@@ -1,29 +1,33 @@
 @font-face {
-    font-family: "Raleway";
-    src: url(/home/adam/Documents/static/Raleway-Regular.ttf) format('truetype');
-     
-    font-family: "Cabin";
-    src: url(/home/adam/Documents/static/Cabin-Regular.ttf) format('truetype'); 
-    
-
+    font-family: 'Raleway';
+    src: url('/home/adam/the_odin_project/family-website/fonts/Raleway-Light.ttf') format('truetype'), 
+}
+    @font-face {
+    font-family: 'Cabin';
+    src: url('/home/adam/the_odin_project/family-website/fonts/Cabin-Regular.ttf') format('truetype'); 
 }
 
 h1 {
     text-align: center;
-    color: hsl(206, 26, 28);
-    background-color: hsl(170, 5, 92);
-    font-family: "Raleway", Helvetica, sans-serif;
-
+    color: hsl(206, 26%, 28%);
+    background-color: hsl(170, 5%, 92%);
+    font-family: 'Raleway', Helvetica, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 20px;
+    border: 2px solid gray;
 
 }
 
 h2 { 
     border-style: 2px solid gray;
     text-align: center;
-    color: hsl(206, 26, 28);
-    background-color: hsl(170, 5, 92);
-    font-family: "Cabin"; Helvetica, sans-serif;
-
+    color: hsl(206, 26%, 28%);
+    background-color: hsl(170, 5%, 92%);
+    font-family: 'Cabin', Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    margin: 50px;
 }
 
 div { 
@@ -33,9 +37,9 @@ div {
 
 nav {
     text-decoration: overline;
-    font-family: "Cabin"; Helvetica, sans-serif;
-    color: hsl(206, 26, 28);
-    background-color: hsl(170, 18, 82);
+    font-family: 'Cabin', Helvetica, sans-serif;
+    color: hsl(206, 26%, 28%);
+    background-color: hsl(170, 18%, 82%);
     
 
 }
