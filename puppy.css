@@ -1,16 +1,27 @@
 @font-face {
     font-family: 'Raleway';
-    src: url('/home/adam/the_odin_project/family-website/fonts/Raleway-Light.ttf') format('truetype'), 
+    src: url('/home/adam/the_odin_project/family-website/fonts/Raleway-Light.ttf') format('truetype'); 
 }
-    @font-face {
+@font-face {
     font-family: 'Cabin';
     src: url('/home/adam/the_odin_project/family-website/fonts/Cabin-Regular.ttf') format('truetype'); 
+}
+
+body {
+    height: 125vh;
+    font-family: 'Raleway', Helvetica, sans-serif; 
+
+}
+
+main {
+    color: hsl(206, 26%, 28%);
+
 }
 
 h1 {
     text-align: center;
     color: hsl(206, 26%, 28%);
-    background-color: hsl(170, 5%, 92%);
+    background-color: rgba(212, 243, 238, 0.6);
     font-family: 'Raleway', Helvetica, sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -31,7 +42,9 @@ h2 {
 }
 
 div { 
-    
+    background-image: url('/home/adam/the_odin_project/family-website/rustic-wood-panel_53876-16245.webp');
+    background-size: auto; 
+
 
 }
 
@@ -39,24 +52,42 @@ nav {
     text-decoration: overline;
     font-family: 'Cabin', Helvetica, sans-serif;
     color: hsl(206, 26%, 28%);
-    background-color: hsl(170, 18%, 82%);
+    background-color: hsl(170, 18%, 82%); 
+    animation-name: slidein; 
+    animation-duration: .5s;
+}
+nav:hover {
+    color: rgba(57, 97, 85, .8);
     
 
 }
 
+nav a {
+    color: rgba(112, 88, 72, 1)
+}
 
+nav a:hover{
+    color: rgba(57, 97, 85, 0.8);
+}
+@keyframes slidein {
+    from {
+        margin-bottom: 100%;
+        width: 200%;
+    }
+    to {
+        margin-top: 0%;
+        width: 100%
+    }
+}
 
-h3 {
-
-
-
-
-
+header img {
+    height: 80px;
 
 }
 
-p1 {
 
+p1 {
+    text-decoration
 
 
 
